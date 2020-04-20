@@ -12,16 +12,11 @@ work. If not, see <http://creativecommons.org/licenses/by-nc-sa/4.0/>.
 
 ## Introdução
 
-Os grupos devem implementar o jogo **Wolf and Sheep** na forma de uma
-aplicação de consola .NET Core. O jogo deve ser PvP (_Player vs Player_), sem
-qualquer tipo de inteligência artificial.
+_A definir_
 
-O jogo, bem como as suas regras, é exatamente o mesmo do
-[Projeto 1](https://github.com/VideojogosLusofona/lp1_2019_p1#introdu%C3%A7%C3%A3o).
+## Funcionamento da aplicação
 
-Relativamente ao funcionamento da aplicação (da perspetiva do jogador), devem
-ser seguidas as mesmas recomendações que no
-[Projeto 1](https://github.com/VideojogosLusofona/lp1_2019_p1#funcionamento-da-aplica%C3%A7%C3%A3o).
+_A definir_
 
 ### Organização do código e estrutura de classes
 
@@ -153,10 +148,8 @@ Estruturas de Dados][aed] do [Instituto Superior Técnico][ist]*
 
 ## Referências
 
-* \[1\] **Wolf and Sheep**. Retrieved from
-  <https://ludii.games/details.php?keyword=Wolf%20and%20Sheep>.
-* \[2\] **Fox and Hounds**. Retrieved from
-  <https://boardgamegeek.com/boardgame/148180/fox-and-hounds>.
+* \[1\] _a definir_
+* \[2\] _a definir_
 * \[3\] Whitaker, R. B. (2016). **The C# Player's Guide** (3rd Edition).
   Starbound Software.
 * \[4\] Albahari, J. (2017). **C# 7.0 in a Nutshell**. O’Reilly Media.
