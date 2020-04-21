@@ -32,8 +32,8 @@ tipo de inteligência artificial.
 * Os jogadores jogam um de cada vez. Na sua vez, um jogador pode mover uma peça.
 * As peças podem ser movidas das seguintes formas, seguindo sempre as linhas
   do tabuleiro:
-  * Em qualquer direção em que exista um ponto livre no tabuleiro.
-  * Saltando por cima de uma peça do oponente, eliminando essa peça e
+  * Em qualquer direção em que exista um ponto adjacente livre no tabuleiro.
+  * Saltando por cima de uma peça do oponente adjacente, eliminando essa peça e
     "aterrando" num ponto livre do tabuleiro (tal como nas damas). No entanto,
     apenas uma peça pode ser capturada de cada vez (ao contrário das damas).
 * O jogo termina quando um jogador tiver capturado ou imobilizado todas as
