@@ -29,7 +29,7 @@ tipo de inteligência artificial.
 
 ![Possível tabuleiro inicial, imagem obtida de https://ludii.games/details.php?keyword=Felli](img/board-start.png "Possível tabuleiro inicial")
 
-* Os jogadores jogam um de cada vez. Na sua vez, um jogador pode move uma peça.
+* Os jogadores jogam um de cada vez. Na sua vez, um jogador pode mover uma peça.
 * As peças podem ser movidas das seguintes formas, seguindo sempre as linhas
   do tabuleiro:
   * Em qualquer direção em que exista um ponto livre no tabuleiro.
