@@ -12,18 +12,67 @@ work. If not, see <http://creativecommons.org/licenses/by-nc-sa/4.0/>.
 
 ## Introdução
 
-_A definir_
+Os grupos devem implementar o jogo **Felli** na forma de uma aplicação de
+consola .NET Core. O jogo deve ser PvP (_Player vs Player_), sem qualquer
+tipo de inteligência artificial.
+
+## Regras do jogo
+
+* O jogo **Felli** é jogado num tabuleiro com o seguinte formato:
+
+![Possível tabuleiro inicial, imagem adaptada de https://ludii.games/details.php?keyword=Felli](img/board-empty.png "Tabuleiro vazio")
+
+* Os jogadores decidem com que cores jogar e quem joga primeiro.
+* Seis peças brancas são colocadas num dos lados do tabuleiro, e seis preças
+  pretas são colocadas no outro lado do tabuleiro, ficando o mesmo com o
+  seguinte aspeto inicial:
+
+![Possível tabuleiro inicial, imagem obtida de https://ludii.games/details.php?keyword=Felli](img/board-start.png "Possível tabuleiro inicial")
+
+* Os jogadores jogam um de cada vez. Na sua vez, um jogador pode move uma peça.
+* As peças podem ser movidas das seguintes formas, seguindo sempre as linhas
+  do tabuleiro:
+  * Em qualquer direção em que exista um ponto livre no tabuleiro.
+  * Saltando por cima de uma peça do oponente, eliminando essa peça e
+    "aterrando" num ponto livre do tabuleiro (tal como nas damas). No entanto,
+    apenas uma peça pode ser capturada de cada vez (ao contrário das damas).
+* O jogo termina quando um jogador tiver capturado ou imobilizado todas as
+  peças do oponente, como por exemplo na imagem seguinte:
+
+![Possível tabuleiro final, imagem obtida de https://ludii.games/details.php?keyword=Felli](img/board-end.png "Possível tabuleiro final")
+
+* Este conjunto de regras é conhecido como o conjunto simplificado, e é esse
+  que deve ser implementado.
 
 ## Funcionamento da aplicação
 
-_A definir_
+O funcionamento exato da aplicação é da responsabilidade de cada grupo. No
+entanto, quando a aplicação começa, **deve ser claro como cada jogador joga**,
+ou seja, o jogo deve ter instruções muito claras sobre que teclas fazem o quê.
+Por outras palavras, os grupos devem ter em conta as regras importantes do
+_game design_, pois serão tidas em conta na avaliação do projeto.
+
+A aplicação deve funcionar em Windows, macOS e Linux. A melhor estratégia para
+garantir que assim seja é testar o jogo em Linux (e.g., numa máquina virtual).
+Algumas instruções incompatíveis com macOS e Linux são, por exemplo:
+
+* [Console.Beep()](https://docs.microsoft.com/dotnet/api/system.console.beep)
+* [Console.SetBufferSize()](https://docs.microsoft.com/dotnet/api/system.console.setbuffersize)
+* [Console.SetWindowPosition()](https://docs.microsoft.com/dotnet/api/system.console.setwindowposition)
+* [Console.SetWindowSize()](https://docs.microsoft.com/dotnet/api/system.console.setwindowsize)
+* Entre outras.
+
+As instruções que só funcionam em Windows têm a seguinte indicação na sua
+documentação:
+
+![The current operating system is not Windows.](img/notsupported.png "The current operating system is not Windows.")
 
 ### Organização do código e estrutura de classes
 
 O projeto deve estar devidamente organizado, fazendo uso de classes, _structs_
 e enumerações. Cada classe, _struct_ ou enumeração deve ser colocada num
-ficheiro com o mesmo nome. Por exemplo, uma classe chamada `Agent` deve ser
-colocada no ficheiro `Agent.cs`. A estrutura de classes deve ser bem pensada e
+ficheiro com o mesmo nome. Por exemplo, uma classe chamada `Piece` deve ser
+colocada no ficheiro `Piece.cs`. A estrutura de classes deve ser bem pensada e
 organizada de uma forma lógica, e [cada classe deve ter uma responsabilidade
 específica e bem definida][SRP].
 
@@ -150,8 +199,10 @@ Estruturas de Dados][aed] do [Instituto Superior Técnico][ist]*
 
 ## Referências
 
-* \[1\] _a definir_
-* \[2\] _a definir_
+* \[1\] **Felli**. Retrieved from
+  <https://ludii.games/details.php?keyword=Felli>.
+* \[2\] **Felli**. Retrieved from
+  <https://en.wikipedia.org/wiki/Felli>.
 * \[3\] Whitaker, R. B. (2016). **The C# Player's Guide** (3rd Edition).
   Starbound Software.
 * \[4\] Albahari, J. (2017). **C# 7.0 in a Nutshell**. O’Reilly Media.
