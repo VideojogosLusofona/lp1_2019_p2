@@ -65,9 +65,9 @@ Este projeto tem os seguintes objetivos:
     * Nome dos autores (primeiro e último) e respetivos números de aluno.
     * Informação de quem fez o quê no projeto. Esta informação é
       **obrigatória** e deve refletir os *commits* feitos no Git.
-    * Indicação do repositório público Git utilizado. Esta indicação é
-      opcional, pois podem preferir desenvolver o projeto num repositório
-      privado.
+    * Indicação do repositório Git utilizado. Esta indicação é
+      opcional, pois podem preferir manter o repositório privado após a
+      entrega.
   * Arquitetura da solução:
     * Descrição da solução, com breve explicação de como o código foi
       organizado, bem como dos algoritmos não triviais que tenham sido
@@ -132,7 +132,9 @@ Essa menção **não** influenciará a nota. Os alunos não deverão, no
 entanto, copiar códigos, documentação e relatórios de outros alunos, ou dar os
 seus próprios códigos, documentação e relatórios a outros em qualquer
 circunstância. De facto, não devem sequer deixar códigos, documentação e
-relatórios em computadores de uso partilhado.
+relatórios em computadores de uso partilhado, e muito menos usar
+repositórios Git públicos (embora os mesmos possam ser tornados públicos
+12h após a data limite de submissão).
 
 Nesta disciplina, a desonestidade académica é considerada fraude, com
 todas as consequências legais que daí advêm. Qualquer fraude terá como
